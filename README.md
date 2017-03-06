@@ -109,7 +109,7 @@ solution for N x N configurations or N x M configurations, will find the
 optimal solution if one of the A* algorithms are used. </span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Includes the
-L shaped knights chess move for non-blank tiles to increase the problem space. 
+L shaped knights chess move for non-blank tiles to increase the problem space.Â 
 </span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Requires the
@@ -120,11 +120,11 @@ width=186 height=181 id="Picture 1" src="README_files/image001.jpg"></p>
 
 <p class=MsoNormal>The N x N board above will be as stated as being 3 , 3 when
 program prompts for the board dimensions and tile positions will be: <b><span
-style='font-size:14.0pt;line-height:107%'> 1, 8, 2, 0, 4, 3, 7, 6, 5 .</span></b></p>
+style='font-size:14.0pt;line-height:107%'>Â 1, 8, 2, 0, 4, 3, 7, 6, 5 .</span></b></p>
 
 <p class=MsoNormal>Tool will return a board Equivalent to your board in
 ascending order, so for the board above it will try to find a board equal to <b><span
-style='font-size:14.0pt;line-height:107%'>1 ,2, 3, 4, 5, 6, 7, 8</span> </b> .
+style='font-size:14.0pt;line-height:107%'>1 ,2, 3, 4, 5, 6, 7, 8</span> </b>Â .
 The zero/blank tile could be anywhere in solution but the board will be in
 ascending order.</p>
 
@@ -137,39 +137,39 @@ present with zero as the blank tile. </span></b></p>
 <p class=MsoNormal><b><span style='font-size:12.0pt;line-height:107%'>For
 example a 2x2 board would not work with this tool for inputs 1,0,3,4. The
 inputs solution should have each value i being 1 less than the next value in
-the solution excluding the zero tile. Like this: 1,0,2,3.   </span></b></p>
+the solution excluding the zero tile. Like this: 1,0,2,3.Â Â  </span></b></p>
 
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:107%'>&nbsp;</span></p>
 
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:107%'>Algorithms </span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Bread<span style='font-size:12.0pt;line-height:107%'> First
 Search</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:12.0pt;line-height:107%'>Depth First
 Search</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:12.0pt;line-height:107%'>A* with hamming
 distance as a heuristic</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:12.0pt;line-height:107%'>A* with number of
 reversal tiles (If two tiles are next to each other, and the goal requires
 their position to be swapped) as a heuristic.</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font-size:12.0pt;line-height:107%;font-family:Symbol'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span style='font-size:12.0pt;line-height:107%'>A* with average
 of the previous two heuristics as its heuristic</span></p>
