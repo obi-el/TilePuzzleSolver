@@ -1,0 +1,54 @@
+Tile Puzzle Solver
+
+ 
+
+Implementation Of different algorithms to find a solution for the logic Sliding Puzzle.
+
+Finds a solution for N x N configurations or N x M configurations, will find the optimal solution if one of the A* algorithms are used. 
+
+Includes the L shaped knights chess move for non-blank tiles to increase the problem space.  
+
+Requires the user to input comma separated values of the board to solve. For example:
+
+
+<img src="README_Files/image001.jpg" align="middle">
+
+
+
+The N x N board above will be as stated as being 3 , 3 when program prompts for the board dimensions and tile positions will be:  1, 8, 2, 0, 4, 3, 7, 6, 5 .
+
+Tool will return a board Equivalent to your board in ascending order, so for the board above it will try to find a board equal to 1 ,2, 3, 4, 5, 6, 7, 8  . The zero/blank tile could be anywhere in solution but the board will be in ascending order.
+
+The Blank tile must be represented by a zero.
+
+The tool assumes that the input configuration will have all the numbers in a given range present with zero as the blank tile. 
+
+For example a 2x2 board would not work with this tool for inputs 1,0,3,4. The inputs solution should have each value i being 1 less than the next value in the solution excluding the zero tile. Like this: 1,0,2,3.   
+
+ 
+
+Algorithms 
+
+·         Bread First Search
+
+·         Depth First Search
+
+·         A* with hamming distance as a heuristic
+
+·         A* with number of reversal tiles (If two tiles are next to each other, and the goal requires their position to be swapped) as a heuristic.
+
+·         A* with average of the previous two heuristics as its heuristic
+
+ 
+
+How to Run: 
+
+Jar is provided BridgeTorchSolver.jar
+
+Open a terminal/command prompt in directory and enter
+
+java -jar TilePuzzleSolver.jar
+
+ 
+
+Then follow the prompts J
