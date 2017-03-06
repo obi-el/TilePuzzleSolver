@@ -111,7 +111,7 @@ terminal/command prompt in directory and enter</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Then follow
 the prompts </span><span style='font-size:12.0pt;line-height:107%;font-family:
-Wingdings'>J</span></p>
+Wingdings'></span></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
