@@ -100,7 +100,7 @@ of the previous two heuristics as its heuristic</span></p>
 Run:</span></b><span style='font-size:20.0pt;line-height:107%'> </span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Jar is
-provided BridgeTorchSolver.jar</span></p>
+provided TilePuzzleSolver.jar</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Open a
 terminal/command prompt in directory and enter</span></p>
