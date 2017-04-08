@@ -33,8 +33,8 @@ user to input comma separated values of the board to solve. For example:</span><
 <p class=MsoNormal align=center style='text-align:center'><img border=0
 width=186 height=181 id="Picture 1" src="README_files/image001.jpg"></p>
 
-<p class=MsoNormal>The N x N board above will be as stated as being 3 , 3 when
-program prompts for the board dimensions and tile positions will be: <b><span
+<p class=MsoNormal>The N x N board above will be described as being 3 , 3 when
+program prompts for the board dimensions. Then tile positions will be: <b><span
 style='font-size:14.0pt;line-height:107%'> 1, 8, 2, 0, 4, 3, 7, 6, 5 .</span></b></p>
 
 <p class=MsoNormal>Tool will return a board Equivalent to your board in
