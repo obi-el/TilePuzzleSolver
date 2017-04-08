@@ -3,10 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-
-</style>
-
 </head>
 
 <body lang=EN-US link="#0563C1" vlink="#954F72">
