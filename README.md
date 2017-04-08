@@ -14,8 +14,7 @@ Puzzle Solver</span></b></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
 
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Implementation
-Of different algorithms to find a solution for the logic </span><a
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Using different algorithms to find a solution for the </span><a
 href="https://en.wikipedia.org/wiki/Sliding_puzzle"><span style='font-size:
 12.0pt;line-height:107%'>Sliding Puzzle</span></a><span style='font-size:12.0pt;
 line-height:107%'>.</span></p>
@@ -62,7 +61,7 @@ the solution excluding the zero tile. Like this: 1,0,2,3.   </span></b></p>
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
 style='font-size:12.0pt;line-height:107%;font-family:Symbol'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Bread<span style='font-size:12.0pt;line-height:107%'> First
+</span></span>Breadth<span style='font-size:12.0pt;line-height:107%'> First
 Search</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
